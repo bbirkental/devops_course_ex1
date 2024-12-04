@@ -1,4 +1,4 @@
-# devops_course_ex1
+# homework-2
 In first task I wrote Dockerfile that based on nginx.
 It copy HTML file into it and expose it on port 80 and activate nginx as a web server.
 I build the Image :
