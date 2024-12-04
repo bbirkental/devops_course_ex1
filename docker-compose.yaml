@@ -1,0 +1,9 @@
+version: "3.9"
+name: "ex1"
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+  redis:
+    image: "redis:alpine"
